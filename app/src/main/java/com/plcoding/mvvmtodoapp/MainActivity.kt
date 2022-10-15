@@ -50,6 +50,9 @@ class MainActivity : ComponentActivity() {
                             navController.popBackStack()
                         })
                     }
+                    composable(Routes.SETTINGS) {
+
+                    }
                 }
             }
         }
